@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- mode: nxml; tab-width: 4 -*- -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.osinka.camel</groupId>
+  <artifactId>camel-290-uri-test</artifactId>
+  <version>1.0.0-SNAPSHOT</version> <!-- http://semver.org/ -->
+  <packaging>jar</packaging>
+  <name>Camel 2.9.0 URI normalization</name>
+  <inceptionYear>2011</inceptionYear>
+
+  <developers>
+    <developer>
+      <id>alaz</id>
+      <email>azarov@osinka.com</email>
+      <name>Alexander Azarov</name>
+      <timezone>+4</timezone>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <camel.version>2.9.0</camel.version>
+    <jdk.version>1.6</jdk.version>
+    <java.src.version>1.5</java.src.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-core</artifactId>
+      <version>${camel.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-test</artifactId>
+      <version>${camel.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.6.4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
+
